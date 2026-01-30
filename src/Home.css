@@ -1,0 +1,29 @@
+
+.home-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("higher-keys.png");
+    background-size: contain;
+    min-height: 100vh;
+    background-position: center;
+    background-color: rgba(0,0,0,0.6);
+
+}
+.graying-div{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1;
+}
+.textbox{
+    width: 600px;
+    height: 150px;
+    padding: 15px;
+    color: white;
+    overflow: auto;
+    
+    font-size: 50px;
+    z-index: 2;
+    font-family: "open-sans";
+}
